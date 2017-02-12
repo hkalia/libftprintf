@@ -6,13 +6,14 @@
 /*   By: hkalia <hkalia@student.42.us.org>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/09 13:02:41 by hkalia            #+#    #+#             */
-/*   Updated: 2017/02/01 12:24:24 by hkalia           ###   ########.fr       */
+/*   Updated: 2017/02/11 17:05:30 by hkalia           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf_private.h"
 #include <stdlib.h>
 #include <stdbool.h>
+#include <sys/types.h>
 
 static int8_t	width_h(t_ft_printf *s)
 {
